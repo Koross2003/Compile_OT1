@@ -4,7 +4,7 @@ Input a regex, get its NFA, DFA and minimized DFA.
 ***
 
 ## 整体概述
-实现了一个简易的词法分析器，输入正则表达式和字符串，得到对应的词法分析结果。
+实现了regex->nfa->dfa->min_dfa的转化，输入正则表达式和字符串，得到对应的词法分析结果。
 
 核心类功能
 - `Regex`：预处理正则表达式，实现regex->nfa->dfa->min_dfa的转化，并在min_dfa中匹配输入字符串
