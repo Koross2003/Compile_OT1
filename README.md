@@ -14,8 +14,8 @@ Input a regex, get its NFA, DFA and minimized DFA.
 - `Regex2NFA`：Thompson算法将正则表达式转化为NFA图
 - `DFA_Node`：DFA图中的状态节点
 - `DFA_Edge`：DFA图中的边
-- `NFA2DFA`：NFA转化为DFA
-- `DFA2MinDFA`：DFA转化为最小化DFA
+- `NFA2DFA`：子集构造法将NFA转化为DFA
+- `DFA2MinDFA`：Hopcroft算法将DFA转化为最小化DFA
 
 ***
 
